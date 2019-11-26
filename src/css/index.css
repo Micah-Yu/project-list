@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(195,232,141,1);
+}
+
+html, body, .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.item {
+    width: 16%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #333;
+    transition: height 0.5s linear 0.5s, width 0.5s linear;
+}
+
+.active {
+    width: 100%;
+}
+.wrapper-active .item{
+    transition: height 0.5s linear, width 0.5s linear 0.5s;
+}
+.wrapper-active .item:not(.active) {
+    width: 0;
+    height: 0;
+}
+
+.item .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.5s linear;
+}
+
+.item:nth-of-type(2) .inner {
+    transition-delay: 100ms;
+}
+
+.item:nth-of-type(3) .inner {
+    transition-delay: 200ms;
+}
+
+.item:nth-of-type(4) .inner {
+    transition-delay: 300ms;
+}
+
+.item:nth-of-type(5) .inner {
+    transition-delay: 400ms;
+}
+
+.item:nth-of-type(6) .inner {
+    transition-delay: 500ms;
+}
+
+.init .item .inner {
+    transform: translate3d(0, 100%, 0);
+}
+
+.item .bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.item:nth-of-type(1) .bg {
+    background-image: url("../img/1.jpg");
+}
+
+.item:nth-of-type(2) .bg {
+    background-image: url("../img/2.jpg");
+}
+
+.item:nth-of-type(3) .bg {
+    background-image: url("../img/3.jpg");
+}
+.item:nth-of-type(4) .bg {
+    background-image: url("../img/4.jpg");
+}
+
+.item:nth-of-type(5) .bg {
+    background-image: url("../img/5.jpg");
+}
+
+.item:nth-of-type(6) .bg {
+    background-image: url("../img/6.jpg");
+}
+.item .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+
+}
+
+.wrapper-active .item .title {
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+.wrapper .title{
+    transition: opacity 0.2s linear 1s;
+}
+.item .title h2 {
+    font-size: 14px;
+}
+
+.item:hover .title h2 {
+    font-size: 20px;
+    transition: font-size linear 200ms;
+}
+
+.item:hover .bg {
+    opacity: 1;
+}
+.item .dis{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 30px;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+}
+.active .dis{
+    opacity: 1;
+    transition: opacity 0.5s linear 1s;
+}
+
+.item .dis .header{
+    float: left;
+    margin-left: 30px;
+    line-height: 30px;
+}
+.item .dis .close{
+    position: relative;
+    top: 14px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+}
+.item .dis .close::before,
+.item .dis .close::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+.item .dis .close::before{
+    transform: rotate(45deg);
+}
+.item .dis .close::after{
+    transform: rotate(-45deg);
+}
+.detail-content{
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    width: 80%;
+    text-align: center;
+}
+.detail-content h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.detail-content a{
+    display: block;
+    margin-top: 30px;
+}
+.detail-content .detail{
+    margin-top: 30px;
+}
+.detail-content .detail li{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
