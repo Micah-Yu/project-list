@@ -1,0 +1,25 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "哈尔滨极地馆(AAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1512/51/5193b969b371d76990.water.jpg_600x330_99d01917.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1512/51/5193b969b371d76990.water.jpg_r_800x800_41b63c4d.jpg", "http://img1.qunarzz.com/sight/p0/1810/bc/bc175fe029d11757a3.img.jpg_r_800x800_8a1361b5.jpg", "http://img1.qunarzz.com/sight/p0/1810/71/71d4139d35b481eaa3.img.jpg_r_800x800_750e3f0f.jpg"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": [{
+          "title": "成人三馆联票",
+          "children": [{
+            "title": "成人三馆联票 - **连锁店销售"
+          }]
+        },{
+          "title": "成人五馆联票"
+        }]
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "儿童票"
+      }, {
+        "title": "特惠票"
+      }]
+  }
+}
