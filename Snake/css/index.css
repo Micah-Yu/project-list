@@ -83,37 +83,37 @@ body {
 
 .control {
     position: relative;
-    width: 180px;
-    height: 180px;
-    margin: auto;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
 }
 
 .control img {
     position: absolute;
-    height: 75px;
-    width: 75px;
+    height: 175px;
+    width: 175px;
     opacity: 0.5;
 }
 
 .control .left {
     top: 50%;
-    margin-top: -37px;
+    margin-top: -87px;
 }
 
 .control .up {
     left: 50%;
-    margin-left: -37px;
+    margin-left: -87px;
 }
 
 .control .right {
     right: 0;
     top: 50%;
-    margin-top: -37px;
+    margin-top: -87px;
 }
 
 .control .down {
     bottom: 0;
     left: 50%;
-    margin-left: -37px;
+    margin-left: -87px;
 }
 
