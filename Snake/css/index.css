@@ -1,10 +1,11 @@
-body{
+body {
     background: #c9d6df;
 }
+
 .content {
     width: 640px;
     height: 640px;
-    margin: 100px auto;
+    margin: 20px auto;
     position: relative;
 }
 
@@ -17,7 +18,8 @@ body{
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 2;
 }
-.btn button{
+
+.btn button {
     background: none;
     border-radius: 20px;
     cursor: pointer;
@@ -28,7 +30,8 @@ body{
     top: 50%;
     opacity: 0.7;
 }
-.starBtn button{
+
+.starBtn button {
     font-weight: bold;
     font-size: large;
     width: 200px;
@@ -39,10 +42,12 @@ body{
     margin-left: -100px;
     margin-top: -40px;
 }
-.pauseBtn{
+
+.pauseBtn {
     display: none;
 }
-.pauseBtn button{
+
+.pauseBtn button {
     background-color: #311d3f;
     color: #e3fdfd;
     width: 70px;
@@ -52,22 +57,63 @@ body{
     font-size: large;
     font-weight: bold;
 }
-#snakeWrap{
+
+#snakeWrap {
     position: relative;
     width: 600px;
     height: 600px;
     background-color: #a1eafb;
     border: 20px solid #3490de;
 }
-.snakeHead{
+
+.snakeHead {
     background-image: url(../img/sna.png);
     background-size: cover;
 }
-.snakeBody{
+
+.snakeBody {
     background-color: #1fab89;
     border-radius: 50%;
 }
-.food{
+
+.food {
     background-image: url("../img/apple.png");
     background-size: cover;
 }
+
+.control {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+.control img {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    opacity: 0.5;
+}
+
+.control .left {
+    top: 50%;
+    margin-top: -37px;
+}
+
+.control .up {
+    left: 50%;
+    margin-left: -37px;
+}
+
+.control .right {
+    right: 0;
+    top: 50%;
+    margin-top: -37px;
+}
+
+.control .down {
+    bottom: 0;
+    left: 50%;
+    margin-left: -37px;
+}
+

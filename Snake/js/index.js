@@ -224,8 +224,31 @@ Game.prototype.init = function () {
     // snake.getNextPos()
     crateFood()
 
+	var control = document.getElementsByClassName('control')[0]
+	//触控控制
+	control.ontouchstart = function (e) {
+
+		e.preventDefault()
+
+		var dir = e.target.getAttribute('class')
+
+		if (dir == 'left' && snake.direction != snake.directionNum.right) {
+			snake.direction = snake.directionNum.left
+		}
+		if (dir == 'right' && snake.direction != snake.directionNum.left) {
+			snake.direction = snake.directionNum.right
+		}
+		if (dir == 'up' && snake.direction != snake.directionNum.down) {
+			snake.direction = snake.directionNum.up
+		}
+		if (dir == 'down' && snake.direction != snake.directionNum.up) {
+			snake.direction = snake.directionNum.down
+		}
+	}
+
+	//按键控制
     document.onkeydown = function (e) {
-        var event = e || event
+        var event = e || window.event
 
         event.preventDefault()
 
