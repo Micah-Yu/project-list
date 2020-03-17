@@ -210,8 +210,9 @@ html, body, .wrapper {
     color: rgba(195,232,141,1);
 }
 .detail-content .detail{
+    overflow: auto;
     padding: 10px;
-    display: none;
+    max-height: 396px;
     margin-top: 30px;
     background-color: rgba(102,102,102,0.8);
 }

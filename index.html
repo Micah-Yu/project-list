@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>c3酷炫照片</title>
     <link rel="stylesheet" href="src/css/index.css">
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico" />
 </head>
 <body>
     <div class="wrapper init">
@@ -19,7 +20,7 @@
                             <h3>Vue仿去哪儿网</h3>
                             <a href="https://135680.xyz/vue-travel/index.html">点击进入项目首页</a>
                             <button class="btn">点击查看项目详情</button>
-                            <div class="detail">
+                            <div class="detail" style="display: none">
                                 <ul>
                                      <li>轮播图使用swipper。踩坑：当swipper显示/隐藏时，无法滑动bug。配置observe，自动初始化swipper解决</li>
                                      <li>使用axios获取后台数据，并在父子组件间进行通信。性能优化：对于不需要更新的数据，可以使用keep-alive包裹缓存组件，同时keep-alive内组件切换时，将调用activated 和 deactivated 这两个钩子函数</li>
@@ -27,6 +28,7 @@
                                      <li>使用vuex实现数据共享，组件调用dispath方法调用Actions（主要进行异步操作，没有异步操作可以省略），Action调用commi方法调用Mutations，Mutations操作State中的数据</li>
                                      <li>绑定在组件上的事件，随着组件的销毁，事件也会被删除。但是对于绑定在window上的全局组件，需要调用钩子函数解绑</li>
                                     <li>多次用到的过渡动画，可以定义公用组件，预留插槽slot的方式，实现组件的高效复用</li>
+                                    <li>使用异步加载组件，对仅在需要加载时，才对组件进行加载，节约资源，加快首屏加载</li>
                                  </ul>
                             </div>
                         </div>
@@ -42,7 +44,7 @@
                         <div class="close"></div>
                         <div class="detail-content">
                             <h3>snake</h3>
-                            <a href="https://135680.xyz/Snake/index.html">点击查看项目详情</a>
+                            <a href="https://135680.xyz/Snake/index.html">点击进入玩游戏</a>
                             <div class="detail">贪吃蛇小游戏
                                 <ul>
                                      <li></li>

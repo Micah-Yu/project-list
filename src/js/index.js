@@ -14,16 +14,16 @@ $('.close').click(function (e) {
 	$('.wrapper').removeClass('wrapper-active')
 	$('.active').removeClass('active')
 })
+$('.detail').css('display','none')
 
 $('.btn').click(function () {
 	$('.btn').slideUp('slow', function () {
-		$('.detail').slideDown('fast')
+		$('.detail').slideDown('fast').click(function () {
+			$('.detail').slideUp('slow', function () {
+				$('.btn').slideDown()
+			})
+		})
 	})
 })
 
-$('.detail').click(function () {
-	$('.detail').slideUp('slow', function () {
-		$('.btn').slideDown()
-	})
 
-})
