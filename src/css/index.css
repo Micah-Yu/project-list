@@ -117,7 +117,6 @@ html, body, .wrapper {
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
-
 }
 
 .wrapper-active .item .title {
@@ -184,23 +183,45 @@ html, body, .wrapper {
 .detail-content{
     position: absolute;
     left: 10%;
-    top: 100px;
+    top: 50px;
     width: 80%;
     text-align: center;
 }
 .detail-content h3{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
 }
 .detail-content a{
     display: block;
-    margin-top: 30px;
+    margin: 30px auto 0;
+    font-size: 30px;
+}
+.detail-content .btn{
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(0,0,0,0.7);
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 20px 0;
+    border: none;
+    font-size: 30px;
+    color: rgba(195,232,141,1);
 }
 .detail-content .detail{
+    padding: 10px;
+    display: none;
     margin-top: 30px;
+    background-color: rgba(102,102,102,0.8);
 }
 .detail-content .detail li{
-    height: 30px;
-    line-height: 30px;
+    text-indent: 2rem;
+    text-align: left;
+    line-height: 24px;
+    margin: 20px 0;
     color: #fff;
+}
+.detail-content .detail li:nth-of-type(2n){
+    color: #a1eafb;
 }

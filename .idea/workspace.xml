@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac3c144-691e-4b33-a91a-96e729ef9027" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Snake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-travel/api/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-travel/api/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="806" />
-    <option name="y" value="30" />
-    <option name="width" value="874" />
-    <option name="height" value="908" />
   </component>
   <component name="ProjectId" id="1ZEvpcroKbuDeX4quWfheQYmc38" />
   <component name="ProjectLevelVcsManager">
@@ -55,6 +51,7 @@
       <updated>1574740894266</updated>
       <workItem from="1574740895680" duration="2280000" />
       <workItem from="1584417252622" duration="560000" />
+      <workItem from="1584420345568" duration="6125000" />
     </task>
     <servers />
   </component>
