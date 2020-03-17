@@ -14,6 +14,7 @@ $('.close').click(function (e) {
 	$('.wrapper').removeClass('wrapper-active')
 	$('.active').removeClass('active')
 })
+
 $('.detail').css('display','none')
 
 $('.btn').click(function () {
