@@ -1,6 +1,7 @@
 {
   "ret": true,
   "data": {
+    "city": "哈尔滨",
     "swiperList": [{
       "id": "001",
       "imgUrl": "//source.qunarzz.com/site/images/wns/20190626_dujia_homepage_top_banner_5.jpg"

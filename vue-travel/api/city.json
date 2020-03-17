@@ -9,7 +9,11 @@
 			"id": 3,
 			"spell": "shanghai",
 			"name": "上海"
-		}, {
+		},{
+          "id": 15,
+          "spell": "haerbin",
+          "name": "哈尔滨"
+        }, {
 			"id": 47,
 			"spell": "xian",
 			"name": "西安"
