@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8ac3c144-691e-4b33-a91a-96e729ef9027" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/Vue-travel" />
@@ -56,6 +61,7 @@
       <workItem from="1574740895680" duration="2280000" />
       <workItem from="1584417252622" duration="560000" />
       <workItem from="1584420345568" duration="12457000" />
+      <workItem from="1584494376018" duration="5754000" />
     </task>
     <servers />
   </component>

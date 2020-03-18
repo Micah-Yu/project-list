@@ -127,11 +127,13 @@ html, body, .wrapper {
     transition: opacity 0.2s linear 1s;
 }
 .item .title h2 {
-    font-size: 14px;
+    font-size: 24px;
+    writing-mode: vertical-lr;
+    word-wrap: break-word;
 }
 
 .item:hover .title h2 {
-    font-size: 20px;
+    font-size: 30px;
     transition: font-size linear 200ms;
 }
 
@@ -192,22 +194,29 @@ html, body, .wrapper {
     font-weight: bold;
 }
 .detail-content a{
-    display: block;
+    display: inline-block;
     margin: 30px auto 0;
     font-size: 30px;
+    color: #6639a6;
+    padding: 3px 15px;
+    background-color: rgba(157, 243, 196, 0.3);
 }
 .detail-content .btn{
     position: absolute;
     top: 130px;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.6);
     padding: 0 10px;
     cursor: pointer;
     margin: 20px 0;
     border: none;
     font-size: 30px;
     color: rgba(195,232,141,1);
+}
+.detail-content a:hover,
+.detail-content .btn:hover {
+    font-size: 33px;
 }
 .detail-content .detail{
     overflow: auto;
@@ -216,6 +225,7 @@ html, body, .wrapper {
     margin-top: 30px;
     background-color: rgba(102,102,102,0.8);
 }
+
 .detail-content .detail li{
     text-indent: 2rem;
     text-align: left;
@@ -224,5 +234,23 @@ html, body, .wrapper {
     color: #fff;
 }
 .detail-content .detail li:nth-of-type(2n){
+    color: #a1eafb;
+}
+
+.detail-content .sta-detail{
+    overflow: auto;
+    padding: 10px;
+    max-height: 396px;
+    margin-top: 80px;
+    background-color: rgba(102,102,102,0.8);
+}
+.detail-content .sta-detail li{
+    text-indent: 2rem;
+    text-align: left;
+    line-height: 24px;
+    margin: 20px 0;
+    color: #fff;
+}
+.detail-content .sta-detail li:nth-of-type(2n){
     color: #a1eafb;
 }
