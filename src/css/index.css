@@ -197,9 +197,9 @@ html, body, .wrapper {
     display: inline-block;
     margin: 30px auto 0;
     font-size: 30px;
-    color: #6639a6;
+    color: #f22e00;
     padding: 3px 15px;
-    background-color: rgba(157, 243, 196, 0.3);
+    background-color: rgba(244, 244, 244,0.6);
 }
 .detail-content .btn{
     position: absolute;
